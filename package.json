@@ -1,5 +1,5 @@
 {
-  "name": "rollup-plugin-scss",
+  "name": "@morlz/rollup-plugin-scss",
   "version": "1.0.2",
   "description": "Rollup multiple .scss, .sass and .css imports",
   "main": "index.cjs.js",
@@ -20,13 +20,10 @@
   ],
   "license": "MIT",
   "author": "Thomas Ghysels <info@thomasg.be>",
-  "homepage": "https://github.com/thgh/rollup-plugin-scss",
-  "bugs": {
-    "url": "https://github.com/thgh/rollup-plugin-scss/issues"
-  },
+  "homepage": "https://github.com/ruintterra/rollup-plugin-scss",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thgh/rollup-plugin-scss"
+    "url": "https://github.com/ruintterra/rollup-plugin-scss"
   },
   "files": [
     "index.cjs.js",

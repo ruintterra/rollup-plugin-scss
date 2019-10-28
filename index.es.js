@@ -92,7 +92,7 @@ export default function css (options = {}) {
 
         if (typeof dest !== 'string') {
           // Don't create unwanted empty stylesheets
-          if (!css.length) {
+          if (!css || !css.length) {
             return
           }
 
@@ -134,8 +134,8 @@ function getSize (bytes) {
   return bytes < 10000
     ? bytes.toFixed(0) + ' B'
     : bytes < 1024000
-    ? (bytes / 1024).toPrecision(3) + ' kB'
-    : (bytes / 1024 / 1024).toPrecision(4) + ' MB'
+      ? (bytes / 1024).toPrecision(3) + ' kB'
+      : (bytes / 1024 / 1024).toPrecision(4) + ' MB'
 }
 
 function ensureParentDirsSync (dir) {
